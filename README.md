@@ -2,6 +2,7 @@
 
 <!--
 **X-SpeedBlack-X/X-SpeedBlack-X** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src=''https://raw.githubusercontent.com/gist/X-SpeedBlack-X/63f61d03c0ec4d7be3ff52fe96d85689/raw/7a187972f5d6dc1a73637a3830326a20d5aaeb48/profilecard.svg />
 
 Here are some ideas to get you started:
 
