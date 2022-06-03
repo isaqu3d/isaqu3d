@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 - 💻 I'm Web Developer in React & Typescript
-- 💬 Ask me about **Videogame, Movies, JavaScript, HTML5, CSS3, ReactJS** 
+- 💬 Ask me about **Videogame, Movies, JavaScript, HTML, CSS, ReactJS** 
 ## 👨🏽‍🦲 &nbsp;Social Links
 <div> 
   <a href="https://www.linkedin.com/in/isaque-de-sousa/" target="_blank"> 
