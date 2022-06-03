@@ -1,6 +1,10 @@
 ### Hi there 👋
-<img alight= 'right' height='590em' src='https://raw.githubusercontent.com/gist/X-SpeedBlack-X/63f61d03c0ec4d7be3ff52fe96d85689/raw/7a187972f5d6dc1a73637a3830326a20d5aaeb48/profilecard.svg' />
-<h1 alight='legt' > <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> Hello, I'm Isaque de Sousa</h1>
+
+
+
+<img align= 'right' height='590em' src='https://raw.githubusercontent.com/gist/X-SpeedBlack-X/63f61d03c0ec4d7be3ff52fe96d85689/raw/7a187972f5d6dc1a73637a3830326a20d5aaeb48/profilecard.svg' />
+<h1 align="left">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">, I'm Isaque de Sousa</h1>
+
 <!--
 **X-SpeedBlack-X/X-SpeedBlack-X** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 <img href=''https://raw.githubusercontent.com/gist/X-SpeedBlack-X/63f61d03c0ec4d7be3ff52fe96d85689/raw/7a187972f5d6dc1a73637a3830326a20d5aaeb48/profilecard.svg />
