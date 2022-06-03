@@ -19,16 +19,17 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+- 💻 I'm Web Developer in React & Typescript
 ## 👨🏽‍🦲 &nbsp;Social Links
 <div> 
+  <a href="https://www.linkedin.com/in/isaque-de-sousa/" target="_blank"> 
+ <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+ </a>
  <a href="https://instagram.com/_isaque.s_" target="_blank">
  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
  </a>
 <a href="mailto:isaque.error404@gmail.com" target="_blank"> 
  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
- </a>
- <a href="https://www.linkedin.com/in/isaque-de-sousa/" target="_blank"> 
- <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
  </a>
 </div>
 
