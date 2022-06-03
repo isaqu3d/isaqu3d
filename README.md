@@ -1,4 +1,4 @@
-### Hi there 👋
+
 
 <img align= 'right' height='590em' src='https://raw.githubusercontent.com/gist/X-SpeedBlack-X/63f61d03c0ec4d7be3ff52fe96d85689/raw/7a187972f5d6dc1a73637a3830326a20d5aaeb48/profilecard.svg' />
 <h1 align="left">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px" height='40px'>, I'm Isaque de Sousa</h1>
@@ -19,9 +19,38 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+## 👨🏽‍🦲 &nbsp;Social Links
 <div> 
+<a href="isaque.error404@gmail.com"> 
+ <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+ </a>
+</div>
+
+## 🛠 &nbsp;Tech Stack
+<div display="flex">
+ <img widht="38px" height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />         
+ <img widht="38px" height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+ <img widht="38px" height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+ <img widht="38px" height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+ <img widht="38px" height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" /> 
+ <img widht="38px" height="40px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />    
+ <img widht="38px" height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+          
+<img widht="38px" height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+</div>
+
+
+          
+
+## ⚙️ &nbsp;GitHub Analytics
+
+<p align="left">
+<img width="530em" src="https://github-readme-stats.vercel.app/api?username=X-SpeedBlack-X&show_icons=true&theme=radical" alt="X-SpeedBlack-X's stats"/>
+<img width="530em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=X-SpeedBlack-X&layout=compact&theme=radical" alt="maykbrito's most languages"/>
+</p>
+
 
  
   ![Snake animation](https://github.com/X-SpeedBlack-X/X-SpeedBlack-X/blob/output/github-contribution-grid-snake.svg)
  
-</div>
+
