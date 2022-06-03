@@ -51,10 +51,10 @@ Here are some ideas to get you started:
 
 ## ⚙️ &nbsp;GitHub Analytics
 
-<p align="left">
+<div align="center">
 <img width="530em" src="https://github-readme-stats.vercel.app/api?username=X-SpeedBlack-X&show_icons=true&theme=radical" alt="X-SpeedBlack-X's stats"/>
 <img width="530em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=X-SpeedBlack-X&layout=compact&theme=radical" alt="maykbrito's most languages"/>
-</p>
+</div>
 
 
  
