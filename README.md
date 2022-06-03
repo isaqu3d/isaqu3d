@@ -53,7 +53,7 @@ Here are some ideas to get you started:
 
 <div align="left">
 <img width="490em" src="https://github-readme-stats.vercel.app/api?username=X-SpeedBlack-X&show_icons=true&theme=radical" alt="X-SpeedBlack-X's stats"/>
-<img width="480em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=X-SpeedBlack-X&layout=compact&theme=radical" alt="maykbrito's most languages"/>
+<img width="490em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=X-SpeedBlack-X&layout=compact&theme=radical" alt="maykbrito's most languages"/>
 </div>
 
 
