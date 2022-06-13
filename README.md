@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 - 💻 I'm Web Developer in React & Typescript
-- 💬 Ask me about **Videogame, Movies, JavaScript, HTML, CSS, ReactJS** 
+- 💬 Ask me about **Videogame, Movies, JavaScript, HTML, CSS, ReactJS & React Native** 
 - 📫 How to reach me: isaque.error404@gmail.com
 
 ## 📱 &nbsp;Social Links
