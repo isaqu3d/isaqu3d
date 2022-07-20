@@ -1,7 +1,7 @@
 
 
 <img align= 'right' height='500em'  src='https://raw.githubusercontent.com/gist/X-SpeedBlack-X/63f61d03c0ec4d7be3ff52fe96d85689/raw/7a187972f5d6dc1a73637a3830326a20d5aaeb48/profilecard.svg' />
-<h1 align="left">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px" height='40px'>, I'm Isaque de Sousa</h1>
+<h1 align="left">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="40x" height='40px'>, I'm Isaque de Sousa</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=X-SpeedBlack-X&color=blueviolet" alt="Profile views" /> </p>
 
 <!--
