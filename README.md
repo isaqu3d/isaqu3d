@@ -1,6 +1,6 @@
 
 
-<img align= 'right' height='500em'  src='https://raw.githubusercontent.com/gist/X-SpeedBlack-X/63f61d03c0ec4d7be3ff52fe96d85689/raw/7a187972f5d6dc1a73637a3830326a20d5aaeb48/profilecard.svg' />
+<img align= 'right' height='500em'  src='https://raw.githubusercontent.com/gist/isaqu3d/63f61d03c0ec4d7be3ff52fe96d85689/raw/7a187972f5d6dc1a73637a3830326a20d5aaeb48/profilecard.svg' />
 <h1 align="left">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="40x" height='40px'>, I'm Isaque de Sousa</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=X-SpeedBlack-X&color=blueviolet" alt="Profile views" /> </p>
 
@@ -60,12 +60,12 @@ Here are some ideas to get you started:
 ## ⚙️ &nbsp;GitHub Analytics
 
 <div align="left">
-<img width="490em" src="https://github-readme-stats.vercel.app/api?username=X-SpeedBlack-X&show_icons=true&theme=radical" alt="X-SpeedBlack-X's stats"/>
-<img width="490em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=X-SpeedBlack-X&layout=compact&theme=radical" alt="isaque's most languages"/>
+<img width="490em" src="https://github-readme-stats.vercel.app/api?username=isaqu3d&show_icons=true&theme=radical" alt="X-SpeedBlack-X's stats"/>
+<img width="490em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaqu3d&layout=compact&theme=radical" alt="isaque's most languages"/>
 </div>
 
 
  
-  ![Snake animation](https://github.com/X-SpeedBlack-X/X-SpeedBlack-X/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/isaqu3d/isaqu3d/blob/output/github-contribution-grid-snake.svg)
  
 
