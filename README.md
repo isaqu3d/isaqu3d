@@ -69,7 +69,7 @@ Here are some ideas to get you started:
 
 
  
-  ![Snake animation](https://github.com/isaqu3d/isaqu3d/blob/output/github-contribution-grid-snake.svg)
+  
  
  
 
