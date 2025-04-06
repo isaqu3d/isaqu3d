@@ -1,6 +1,6 @@
 
 
-<h1 align="left">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="40x" height='40px'>, I'm Isaque de Sousa <img align="right" height="50" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif?cid=ecf05e475vjsaw6d240dm2y4b9nqtmwib3tzp1do9xt7xg5s&ep=v1_gifs_search&rid=giphy.gif&ct=g"  /></h1>
+<h1 align="left">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="40x" height='40px'>, I'm Isaque de Sousa. <img align="right" height="50" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif?cid=ecf05e475vjsaw6d240dm2y4b9nqtmwib3tzp1do9xt7xg5s&ep=v1_gifs_search&rid=giphy.gif&ct=g"  /></h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=isaqu3d&color=blueviolet" alt="Profile views" /> </p>
 
 
