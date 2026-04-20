@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-- 💻 I'm Software Engineer at Yazo
+- 💻 I'm Software Engineer at PortData
 - 📫 How to reach me: isaque.error404@gmail.com
 
 ## 📱 &nbsp;Social Links
