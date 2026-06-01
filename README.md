@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 - 💻 I'm Software Engineer at PortData
-- 📫 How to reach me: isaque.error404@gmail.com
+- 📫 How to reach me: isaque.s.dev@gmail.com
 
 ## 📱 &nbsp;Social Links
 <div> 
