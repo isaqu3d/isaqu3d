@@ -1,0 +1,79 @@
+name: GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 03:00 em Fortaleza (UTC-3)
+  workflow_dispatch: # permite rodar manualmente pela aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-stats-cards
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Baixar os cards
+        env:
+          USERNAME: isaqu3d
+        run: |
+          set -uo pipefail
+          mkdir -p assets
+
+          # Se quiser redundância, adicione outras instâncias (própria ou da comunidade)
+          MIRRORS=(
+            "https://github-readme-stats.vercel.app"
+          )
+
+          fetch_card () {
+            local path="$1"
+            local out="$2"
+            local tmp
+            tmp="$(mktemp)"
+
+            for base in "${MIRRORS[@]}"; do
+              for attempt in 1 2 3; do
+                if curl -fsSL --max-time 30 "${base}${path}" -o "$tmp"; then
+                  if grep -qiE "something went wrong|rate limit|bad credentials" "$tmp"; then
+                    echo "::warning::${base} devolveu card de erro (tentativa ${attempt})"
+                  elif ! grep -q "<svg" "$tmp"; then
+                    echo "::warning::${base} devolveu algo que não é SVG (tentativa ${attempt})"
+                  else
+                    mv "$tmp" "$out"
+                    echo "OK -> ${out} (via ${base})"
+                    return 0
+                  fi
+                fi
+                sleep 10
+              done
+            done
+
+            echo "::warning::não consegui atualizar ${out} — mantendo a versão anterior"
+            return 0
+          }
+
+          fetch_card "/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=false" \
+                     "assets/github-stats.svg"
+
+          fetch_card "/api/top-langs?username=${USERNAME}&locale=en&layout=compact&langs_count=5&theme=radical&hide_border=false&order=2" \
+                     "assets/top-langs.svg"
+
+      - name: Commitar se mudou
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/*.svg
+
+          if git diff --staged --quiet; then
+            echo "Nenhuma mudança nos cards."
+          else
+            git commit -m "chore(stats): atualiza cards do GitHub"
+            git push
+          fi
