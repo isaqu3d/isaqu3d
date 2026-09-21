@@ -34,27 +34,30 @@ jobs:
           fetch_card () {
             local path="$1"
             local out="$2"
-            local tmp
+            local tmp code
             tmp="$(mktemp)"
 
             for base in "${MIRRORS[@]}"; do
               for attempt in 1 2 3; do
-                if curl -fsSL --max-time 30 "${base}${path}" -o "$tmp"; then
-                  if grep -qiE "something went wrong|rate limit|bad credentials" "$tmp"; then
-                    echo "::warning::${base} devolveu card de erro (tentativa ${attempt})"
-                  elif ! grep -q "<svg" "$tmp"; then
-                    echo "::warning::${base} devolveu algo que não é SVG (tentativa ${attempt})"
-                  else
-                    mv "$tmp" "$out"
-                    echo "OK -> ${out} (via ${base})"
-                    return 0
-                  fi
+                code="$(curl -sSL -w '%{http_code}' --max-time 30 "${base}${path}" -o "$tmp" || echo 000)"
+
+                if [ "$code" != "200" ]; then
+                  echo "::warning::${base} respondeu HTTP ${code} (tentativa ${attempt})"
+                elif grep -qiE "something went wrong|rate limit|bad credentials" "$tmp"; then
+                  echo "::warning::${base} devolveu card de erro (tentativa ${attempt})"
+                elif ! grep -q "<svg" "$tmp"; then
+                  echo "::warning::${base} devolveu algo que nao e SVG (tentativa ${attempt})"
+                else
+                  mv "$tmp" "$out"
+                  echo "OK -> ${out} (via ${base})"
+                  return 0
                 fi
+
                 sleep 10
               done
             done
 
-            echo "::warning::não consegui atualizar ${out} — mantendo a versão anterior"
+            echo "::warning::nao consegui atualizar ${out} - mantendo a versao anterior"
             return 0
           }
 
@@ -69,10 +72,18 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/*.svg
+          shopt -s nullglob
+          files=(assets/*.svg)
+
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "::warning::nenhum card foi gerado ainda - nada a commitar"
+            exit 0
+          fi
+
+          git add "${files[@]}"
 
           if git diff --staged --quiet; then
-            echo "Nenhuma mudança nos cards."
+            echo "Nenhuma mudanca nos cards."
           else
             git commit -m "chore(stats): atualiza cards do GitHub"
             git push
